@@ -297,22 +297,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "getSourceCode_v4"
-version = "0.4.0"
-dependencies = [
- "anyhow",
- "clap",
- "csv",
- "lazy_static",
- "mockito",
- "reqwest",
- "serde",
- "serde_json",
- "tempfile",
- "tokio",
-]
-
-[[package]]
 name = "getrandom"
 version = "0.2.15"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -997,6 +981,22 @@ name = "smallvec"
 version = "1.13.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "3c5e1a9a646d36c3599cd173a41282daf47c44583ad367b8e6837255952e5c67"
+
+[[package]]
+name = "smart_contract_retriever"
+version = "0.4.0"
+dependencies = [
+ "anyhow",
+ "clap",
+ "csv",
+ "lazy_static",
+ "mockito",
+ "reqwest",
+ "serde",
+ "serde_json",
+ "tempfile",
+ "tokio",
+]
 
 [[package]]
 name = "socket2"
