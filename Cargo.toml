@@ -1,0 +1,16 @@
+[package]
+name = "getSourceCode_v4"
+version = "0.4.0"
+edition = "2021"
+
+[dependencies]
+tokio = { version = "1.28", features = ["full"] }
+reqwest = { version = "0.11", features = ["json"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+csv = "1.2"
+clap = "3.2"
+anyhow = "1.0"
+lazy_static = "1.4"
+mockito = "0.31"
+tempfile = "3.12.0"
