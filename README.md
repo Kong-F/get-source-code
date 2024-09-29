@@ -27,7 +27,7 @@ cargo build --release
 
 ```bash
 USAGE:
-    getSourceCode_v4 [OPTIONS]
+    smart_contract_retriever [OPTIONS]
 
 OPTIONS:
     -c, --chain <CHAIN>        Specify the chain (required in single mode)
