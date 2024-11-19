@@ -19,7 +19,7 @@ Ensure you have Rust and Cargo installed on your system. Then, follow these step
 ```bash
 https://github.com/Kong-F/Smart-Contract-Source-Code-Retriever.git
 cd Smart-Contract-Source-Code-Retriever
-# Configure the required block browser api key in the main.rs file
+# Configure the required block browser api key in the `main.rs` file
 cargo build --release
 ```
 
